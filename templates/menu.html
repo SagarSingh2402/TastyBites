@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TastyBites | Restaurant</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/navbar.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+   <nav class="navbar">
+
+    <div class="logo">
+        <i class="fa-solid fa-utensils"></i>
+        <span>TastyBites</span>
+    </div>
+
+    <ul class="nav-links">
+
+        <li><a href="/menu/page">Home</a></li>
+
+        <li><a href="/menu/page" class="active">Menu</a></li>
+
+        <li><a href="/order/history">My Orders</a></li>
+
+        <li><a href="/admin">Admin</a></li>
+
+    </ul>
+
+    <a href="/cart/page" class="order-btn">
+        <i class="fa-solid fa-cart-shopping"></i>
+        Cart
+    </a>
+
+  </nav>
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section class="hero">
+
+        <div class="hero-left">
+
+            <p class="tagline">
+                Delicious Flavors
+            </p>
+
+            <h1>
+                TastyBites
+            </h1>
+
+            <p class="hero-text">
+
+                Explore our chef's special dishes
+                made with fresh ingredients
+                and rich taste.
+
+            </p>
+
+            <button class="explore-btn">
+
+                <i class="fa-solid fa-bowl-food"></i>
+
+                Explore Menu
+
+            </button>
+
+        </div>
+
+        <div class="hero-right">
+
+            <img src="/static/images/hero-food.png" alt="Food">
+
+        </div>
+
+    </section>
+
+    <!-- ================= CATEGORY ================= -->
+
+    
+    <!-- ================= MENU ================= -->
+
+    <section class="menu-section">
+
+        <div id="menu-container" class="menu-grid">
+
+            <!-- JavaScript se Cards aayenge -->
+
+        </div>
+
+    </section>
+
+    <div id="toast" class="toast">
+    ✅ Item Added To Cart
+    </div>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <h2>TastyBites</h2>
+
+        <p>
+            Fresh Food • Fast Delivery • Best Taste
+        </p>
+
+    </footer>
+
+    <!-- JavaScript -->
+
+
+    <script src="/static/Script.js"></script>
+
+</body>
+
+</html>

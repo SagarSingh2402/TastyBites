@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Admin Dashboard</title>
+
+    <link rel="stylesheet" href="/static/admin.css">
+
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+   
+
+<header>
+
+    <h1>
+        Restaurant Admin Dashboard
+    </h1>
+
+</header>
+
+<section class="dashboard">
+
+    <div class="card">
+
+        <i class="fa-solid fa-cart-shopping"></i>
+
+        <h2 id="orders">0</h2>
+
+        <p>Total Orders</p>
+
+    </div>
+
+    <div class="card">
+
+        <i class="fa-solid fa-users"></i>
+
+        <h2 id="users">0</h2>
+
+        <p>Total Users</p>
+
+    </div>
+
+    <div class="card">
+
+        <i class="fa-solid fa-utensils"></i>
+
+        <h2 id="menu">0</h2>
+
+        <p>Menu Items</p>
+
+    </div>
+
+    <div class="card">
+
+        <i class="fa-solid fa-indian-rupee-sign"></i>
+
+        <h2 id="revenue">₹0</h2>
+
+        <p>Total Revenue</p>
+
+    </div>
+
+</section>
+
+<section class="buttons">
+
+    <a href="/admin/manage-orders">
+        <button>Manage Orders</button>
+    </a>
+
+    <a href="/admin/manage-menu">
+        <button>Manage Menu</button>
+    </a>
+
+    <a href="/admin/add-menu">
+        <button>Add Menu</button>
+    </a>
+
+</section>
+
+<script src="/static/admin.js"></script>
+
+</body>
+
+</html>
